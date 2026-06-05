@@ -174,8 +174,8 @@ async def start_pm(client, message: Message, _):
     await loading_1.delete()
     
     # OWNER VARIABLES FETCH
-    owner_uname = getattr(config, "OWNER_USERNAME", "Kaito_3_2")
-    owner_name = getattr(config, "OWNER_NAME", "── 𝛞 𝛜 𝛈 𝛔 𝛈")
+    owner_uname = getattr(config, "OWNER_USERNAME", "itachiplub02")
+    owner_name = getattr(config, "OWNER_NAME", "ỉ ƚ α 𝚌 ͱ꧊ ỉ ﾠ𝛒 𝖑 𝚞 𝚋‹‹𝟐")
     
     if len(message.text.split()) > 1:
         name = message.text.split(None, 1)[1]
