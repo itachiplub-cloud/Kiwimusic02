@@ -28,7 +28,7 @@ from YUKIIMUSIC import app
 
 #--------------------------
 
-MUST_JOIN = "ZcziiyYY"
+MUST_JOIN = "II_DevDynasty_II"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
